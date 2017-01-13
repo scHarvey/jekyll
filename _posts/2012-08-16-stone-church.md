@@ -6,7 +6,7 @@ date:   2012-08-16 14:28:00 +0800
 categories: photography, landscape
 img: stone-church.png
 categories: [photography, landscape]
-color: c3e8bd
+color: color_4
 author: scH
 ---
 

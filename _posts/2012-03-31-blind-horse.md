@@ -6,7 +6,7 @@ date:   2012-03-31 23:46:00 +0800
 categories: photography
 img: blind-horse.jpg
 categories: [photography]
-color: 9DDBAD
+color: color_1
 author: scH
 ---
 

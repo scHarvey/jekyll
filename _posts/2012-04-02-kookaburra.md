@@ -6,7 +6,7 @@ date:   2012-04-02 00:46:00 +0800
 categories: photography
 img: kookaburra.jpg
 categories: [photography]
-color: 9DDBAD
+color: color_2
 author: scH
 ---
 

@@ -6,7 +6,7 @@ date:   2012-05-17 23:28:00 +0800
 categories: therapy
 img: yellow-coat.jpg
 categories: [therapy]
-color: 9DDBAD
+color: color_3
 author: scH
 ---
 
