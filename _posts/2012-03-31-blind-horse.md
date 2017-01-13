@@ -4,7 +4,7 @@ title:  "Blind Horse"
 description: A very blind horse that lived at a barn I frequented
 date:   2012-03-31 23:46:00 +0800
 categories: photography
-img: yellow-coat.jpg
+img: blind-horse.jpg
 categories: [photography]
 color: 9DDBAD
 author: scH
