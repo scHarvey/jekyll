@@ -2,7 +2,7 @@
 layout: post
 title:  "Stone Church"
 description: HDR shot of a cute little church set on a flat spot in front of the mountains.
-date:   2012-8-16 14:28:00 +0800
+date:   2012-08-16 14:28:00 +0800
 categories: photography, landscape
 img: stone-church.png
 categories: [photography, landscape]

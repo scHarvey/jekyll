@@ -1,43 +1,47 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
+# Site settings
 title: Clint Harvey
-desctiption: Jekyll Experimentation
-url: http://jekyll.clintharvey.net
-permalink: ':title/'
+description: Jekyll Experimentation
+email: sch@rw-dev.com
+include: [_pages]
 
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://github.clintharvey.net" # the base hostname & protocol for your site
+
+#sidebar
+default-image: moo.jpg # If there is no featured image in a post then this image will be showed. Also on all pages this image will be showed. Use a 500x250 image.
+
+#footer
+built-by: Clint harvey
+copyright:
+   name: Clint Harvey
+   link: 'http://clintharvey.net'
+
+# Build settings
 markdown: kramdown
-baseurl: "http://jekyll.clintharvey.net/"
-
-
-sass:
-    style: compressed
-
-
-#optimization
-#compress.html
-compress_html:
-  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
-  comments: ["<!-- ", " -->"]
-  endings: [all]
-  ignore:
-    envs: [local]
-  blanklines: false
-  profile: false
-  startings: []
-
-highlight: rouge
-
+permalink: /:title/
+paginate: 6
+paginate_path: /page:num/
 
 # Tracker
 analytics:
 
-# Comments
-disqus-shortname:
+#social
+facebook: http://facebook.com/sharvey
+twitter: http://twitter.com/scharvey
+github: http://github.com/scharvey
+instagram: http://instagram.com/scharvey
 
-# Contact form
-# Go to https://getsimpleform.com and get a API token by signing up with your email and enter that here
-api-token:
+# Sass style
+sass:
+  style: compressed
 
-include: [_pages]
-version: 0.8
-
+# Ruby Gems
 gems: [jekyll-paginate, jekyll-seo-tag]

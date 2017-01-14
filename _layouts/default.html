@@ -1,43 +1,41 @@
+<!-- Remove the comments to compress html
+
 ---
 layout: compress
----
+--- 
+
+-->
 <!DOCTYPE html>
-<html lang="en">
-{% include head.html %}
-<body>
-<header>
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<html>
 
-  {% include menu-links.html %}
-</div>
+  {% include head.html %}
 
-<!-- Use any element to open the sidenav -->
-<span id="slid" onclick="openNav()"><i class="fa fa-align-left" aria-hidden="true"></i></span>
-<a href="{{site.baseurl}}/"><h1 class="header-title">{{site.title}}<i class="fa fa-sun-o" aria-hidden="true"></i> </h1></a>
-<h2 class="header-tagline">Son of the Sun</h2>
-</header>
-<div id="main">
+  <body>
 
+    {% include header.html %}
 
+    <div class="container">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
 
-
-{{content}}
-
-
-
-{% include footer.html %}
-
-</div>
-<script>
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-}
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";    
-}
+    {% include footer.html %}
+    
+<script async>
+    (function() {
+        var font = document.createElement('link'); 
+        font.type = 'text/css'; 
+        font.rel = 'stylesheet';
+        font.href = '//fonts.googleapis.com/css?family=Raleway:400,700';
+        var s = document.getElementsByTagName('link')[0]; 
+        s.parentNode.insertBefore(font, s);
+      })();
 </script>
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet" type="text/css"> 
-{% include analytics.html %}
-</body>
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="{{site.baseurl}}/js/bootstrap.min.js"></script>
+ {% if site.analytics %}{% include analytics.html %}{% endif %}
+  </body>
+
 </html>

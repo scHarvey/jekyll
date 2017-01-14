@@ -2,7 +2,7 @@
 layout: post
 title:  "Precocious Youth"
 description: Everyone did their mother's algebra homework in 2nd grade, right?
-date:   2012-5-17 23:28:00 +0800
+date:   2012-05-17 23:28:00 +0800
 categories: therapy
 img: yellow-coat.jpg
 categories: [therapy]
