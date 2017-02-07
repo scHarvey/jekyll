@@ -40,4 +40,4 @@ api-token:
 include: [_pages]
 version: 0.8
 
-gems: [jekyll-paginate, jekyll-seo-tag]
+gems: [jekyll-paginate, jekyll-seo-tag, jekyll-twitter-plugin, amp-jekyll]
