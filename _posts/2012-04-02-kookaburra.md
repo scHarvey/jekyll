@@ -5,7 +5,6 @@ description: Everyone did their mother's algebra homework in 2nd grade, right?
 date:   2012-04-02 00:46:00 +0800
 categories: photography
 img: kookaburra.jpg
-categories: [photography]
 color: color_2
 author: scH
 ---

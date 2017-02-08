@@ -5,7 +5,6 @@ description: A very blind horse that lived at a barn I frequented
 date:   2012-03-31 23:46:00 +0800
 categories: photography
 img: blind-horse.jpg
-categories: [photography]
 color: color_1
 author: scH
 ---

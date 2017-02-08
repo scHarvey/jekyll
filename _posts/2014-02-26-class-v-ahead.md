@@ -5,7 +5,6 @@ description: Dreams, songs, and therapy.
 date:   2014-02-26 15:00:00 +0800
 categories: therapy
 img: scout-eyes.jpg
-categories: [therapy]
 color: color_1
 author: scH
 ---
